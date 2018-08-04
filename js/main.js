@@ -1,3 +1,4 @@
+/* Firebase config */
 config = {
   apiKey: "AIzaSyC8pjQpOh2K_XcBhvYpk6gifzCaZ585IlI",
   authDomain: "philippe-portifolio.firebaseapp.com",
@@ -20,4 +21,7 @@ firebase.initializeApp(config);
       err => alert(err)
     )
   }
+/* ----------------------*/
+
+const render = document.getElementById('render');
 
